@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BPDatabase_Tests' do
+  pod 'BPDatabase', :path => '../'
+  
+  
+end
