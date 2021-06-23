@@ -1,0 +1,6 @@
+framework module BPDatabase {
+  umbrella header "BPDatabase-umbrella.h"
+
+  export *
+  module * { export * }
+}

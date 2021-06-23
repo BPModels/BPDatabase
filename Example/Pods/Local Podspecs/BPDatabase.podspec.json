@@ -1,0 +1,35 @@
+{
+  "name": "BPDatabase",
+  "version": "0.1.0",
+  "summary": "A short description of BPDatabase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BPModels/BPDatabase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "TestEngineerFish": "916878440@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/BPModels/BPDatabase.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "BPDatabase/Classes/**/*",
+  "dependencies": {
+    "FMDB": [
+
+    ],
+    "BPFile": [
+
+    ],
+    "BPCommon": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

@@ -1,0 +1,46 @@
+PODS:
+  - BPCommon (0.1.4):
+    - BPFile
+    - Kingfisher (~> 5.7)
+    - ObjectMapper
+  - BPDatabase (0.1.0):
+    - BPCommon
+    - BPFile
+    - FMDB
+  - BPFile (0.1.3)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Kingfisher (5.15.8):
+    - Kingfisher/Core (= 5.15.8)
+  - Kingfisher/Core (5.15.8)
+  - ObjectMapper (4.2.0)
+
+DEPENDENCIES:
+  - BPDatabase (from `../`)
+
+SPEC REPOS:
+  https://github.com/BPModels/BPSpecs.git:
+    - BPCommon
+    - BPFile
+  https://github.com/CocoaPods/Specs.git:
+    - Kingfisher
+    - ObjectMapper
+  trunk:
+    - FMDB
+
+EXTERNAL SOURCES:
+  BPDatabase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BPCommon: 00c3b1e7ee537fcb33669e2bdd7aa5d1f45643e8
+  BPDatabase: d603ac25fefb6ca343bfcafb573a7117195ad7e0
+  BPFile: e96685ea7920008bceffa6b675d72705b586029b
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+
+PODFILE CHECKSUM: 806a201b858facf3292445baeaa9db3678aedc59
+
+COCOAPODS: 1.10.1

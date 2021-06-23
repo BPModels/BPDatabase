@@ -21,14 +21,15 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/TestEngineerFish/BPDatabase'
+  s.homepage         = 'https://github.com/BPModels/BPDatabase'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'TestEngineerFish' => '916878440@qq.com' }
-  s.source           = { :git => 'https://github.com/TestEngineerFish/BPDatabase.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/BPModels/BPDatabase.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.swift_versions = '5.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'BPDatabase/Classes/**/*'
   
@@ -39,4 +40,11 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  # 数据库
+  s.dependency 'FMDB'
+  # 文件库
+  s.dependency 'BPFile'
+  # 通用库
+  s.dependency 'BPCommon'
 end
