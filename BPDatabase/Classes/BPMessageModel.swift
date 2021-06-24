@@ -8,7 +8,7 @@
 
 import BPCommon
 
-enum BPMessageType: Int {
+public enum BPMessageType: Int {
     /// 文本
     case text     = 0
     /// 图片
@@ -37,7 +37,7 @@ enum BPMessageType: Int {
     }
 }
 
-enum BPMessageFromType: Int {
+public enum BPMessageFromType: Int {
     /// 自己
     case me
     /// 对方
@@ -48,7 +48,7 @@ enum BPMessageFromType: Int {
     case local
 }
 
-enum BPMessageStatus: Int {
+public enum BPMessageStatus: Int {
     /// 发送成功
     case success
     /// 发送失败
@@ -59,16 +59,16 @@ enum BPMessageStatus: Int {
     case editing
 }
 
-struct BPMessageModel {
-    var id: String          = ""
-    var sessionId           = ""
-    var text: String        = ""
-    var time: Date          = Date(timeIntervalSinceNow: 0)
-    var type: BPMessageType = .text
-    var fromType: BPMessageFromType = .me
-    var mediaModel: BPMediaModel? // 多媒体资源
-    var status: BPMessageStatus = .success
-    var unread: Bool        = true
+public struct BPMessageModel {
+    public var id: String          = ""
+    public var sessionId           = ""
+    public var text: String        = ""
+    public var time: Date          = Date(timeIntervalSinceNow: 0)
+    public var type: BPMessageType = .text
+    public var fromType: BPMessageFromType = .me
+    public var mediaModel: BPMediaModel? // 多媒体资源
+    public var status: BPMessageStatus = .success
+    public var unread: Bool        = true
 
-    init() {}
+    public init() {}
 }

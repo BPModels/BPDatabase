@@ -8,42 +8,42 @@
 
 import ObjectMapper
 
-enum BPSessionType: Int {
+public enum BPSessionType: Int {
     case normal = 0
     case system = 1
     case group  = 2
 }
 
-struct BPSessionModel: Mappable {
+public struct BPSessionModel: Mappable {
 
-    var id: String       = ""
+    public var id: String        = ""
     /// 会话类型
-    var type             = BPSessionType.normal
+    public var type              = BPSessionType.normal
     /// 是否置顶
-    var isTop: Bool      = false
+    public var isTop: Bool       = false
     /// 好友ID
-    var friendId: String = ""
+    public var friendId: String  = ""
     /// 好友名称
-    var friendName: String = ""
+    public var friendName: String = ""
     /// 好友头像地址
-    var friendAvatarPath: String?
+    public var friendAvatarPath: String?
     /// 最后一条消息内容
-    var lastMessage: String?
+    public var lastMessage: String?
     /// 最后一条消息时间
-    var lastMessageTime: Date?
+    public var lastMessageTime: Date?
     /// 最后一条消息类型
-    var lastMessageType: BPMessageType = .text
+    public var lastMessageType: BPMessageType = .text
     /// 最后一条消息状态
-    var lastMessageStatus: BPMessageStatus = .success
+    public var lastMessageStatus: BPMessageStatus = .success
     /// 最后一条时间戳消息的时间，用于判断发送消息是否需要显示时间在消息列表中
-    var lastTimestamp: Date?
+    public var lastTimestamp: Date?
     /// 未读消息数
-    var unreadCount: Int = 0
+    public var unreadCount: Int = 0
     /// 创建时间
-    var createTime: Date?
+    public var createTime: Date?
 
-    init() {}
-    init?(map: Map) {}
+    public init() {}
+    public init?(map: Map) {}
 
-    mutating func mapping(map: Map) {}
+    public mutating func mapping(map: Map) {}
 }
