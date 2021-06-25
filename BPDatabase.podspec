@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BPDatabase'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of BPDatabase.'
 
 # This description is used to generate tags and improve search results.
@@ -22,6 +22,7 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/BPModels/BPDatabase'
+  
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'TestEngineerFish' => '916878440@qq.com' }

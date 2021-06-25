@@ -130,7 +130,7 @@
 		E3A465CA812754A26898FA1561A3F7D4 /* AuthenticationChallengeResponsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AB0B26536AA7C69367E631A447F784 /* AuthenticationChallengeResponsable.swift */; };
 		E44B4835A57ECD90EED9DFB37473B8FA /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 531355CD20354A6C4B6BF91AC559DF1A /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4BFF2530A581C6AA27C6A6C8429BF12 /* BPFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C0E08EBA54D50BB0217912E3B483F8 /* BPFileManager.swift */; };
-		E6226209B3C7DB25C1293F741AE63303 /* NormalDBCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BFBA04825347607145434213138F40 /* NormalDBCenter.swift */; };
+		E6226209B3C7DB25C1293F741AE63303 /* BPNormalDBCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BFBA04825347607145434213138F40 /* BPNormalDBCenter.swift */; };
 		E87BE987A4B84D2BACB635A5DE55B4FD /* ImageProgressive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275B7D38F226D205DE8FE05B1A8C369C /* ImageProgressive.swift */; };
 		EB42E0C81FA0D23FA62F64789A3989C3 /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBE2D6D2F569E38F4E32D053633321E /* EnumTransform.swift */; };
 		EB784E06FEA3B79F4E3623F48013ABAB /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111EE4C99A56955A5500734FE5C185C /* Deprecated.swift */; };
@@ -350,7 +350,7 @@
 		A4A90D0D5B02BD0DECC9B0BFD8D0B7E5 /* BPDatabaseManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BPDatabaseManager.swift; sourceTree = "<group>"; };
 		A64A0DFFFBFDD7719E659F35C5D75F91 /* FMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.release.xcconfig; sourceTree = "<group>"; };
 		A691B0380B824C6D1992905430FC4D79 /* BPDatabase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BPDatabase.release.xcconfig; sourceTree = "<group>"; };
-		A8BFBA04825347607145434213138F40 /* NormalDBCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NormalDBCenter.swift; path = BPDatabase/Classes/NormalDBCenter.swift; sourceTree = "<group>"; };
+		A8BFBA04825347607145434213138F40 /* BPNormalDBCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BPNormalDBCenter.swift; path = BPDatabase/Classes/BPNormalDBCenter.swift; sourceTree = "<group>"; };
 		A9F3FF882208D8DFFB3A84954F65C25B /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Views/Indicator.swift; sourceTree = "<group>"; };
 		AF13AB5BB1577981781495A0A8D1C70D /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Sources/Networking/RedirectHandler.swift; sourceTree = "<group>"; };
 		AF15CFA70BA2B2EC8463388C9B01682A /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
@@ -638,7 +638,7 @@
 				22263A7726833A2700E245AA /* BPSessionModel.swift */,
 				C4A96EB1DBCC054C252246A9D28A85E6 /* BPMessageModel.swift */,
 				CEB75662E93B2E5D37335AB855897076 /* IMDatabase.md */,
-				A8BFBA04825347607145434213138F40 /* NormalDBCenter.swift */,
+				A8BFBA04825347607145434213138F40 /* BPNormalDBCenter.swift */,
 				7436DB30F0BF52B958B1A82361368EAD /* Database */,
 				312156DD8ACCB1D60C4C94749670AE88 /* Pod */,
 				AB64F3085361187BD60947B590AF55FA /* Support Files */,
@@ -1210,7 +1210,7 @@
 				2662285838D8DF4A5B496CDE090CE35A /* BPNormalDBOperator.swift in Sources */,
 				EC5F5E3B3A016DC58D6D62A1E221902C /* BPSQLManager.swift in Sources */,
 				3802A6E0D7904EC88F3865A0D8773BF6 /* IMDatabase.md in Sources */,
-				E6226209B3C7DB25C1293F741AE63303 /* NormalDBCenter.swift in Sources */,
+				E6226209B3C7DB25C1293F741AE63303 /* BPNormalDBCenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

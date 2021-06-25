@@ -1,29 +1,62 @@
 # BPDatabase
 
-[![CI Status](https://img.shields.io/travis/TestEngineerFish/BPDatabase.svg?style=flat)](https://travis-ci.org/TestEngineerFish/BPDatabase)
-[![Version](https://img.shields.io/cocoapods/v/BPDatabase.svg?style=flat)](https://cocoapods.org/pods/BPDatabase)
-[![License](https://img.shields.io/cocoapods/l/BPDatabase.svg?style=flat)](https://cocoapods.org/pods/BPDatabase)
-[![Platform](https://img.shields.io/cocoapods/p/BPDatabase.svg?style=flat)](https://cocoapods.org/pods/BPDatabase)
+
+
+[![Swift](https://img.shields.io/badge/Swift-%3E=5.0-Orange?style=flat-square)](https://img.shields.io/badge/Swift-%3E=5.0-Orange?style=flat-square)
+
+[![Platform](https://img.shields.io/badge/Platforms-iOS-Green?style=flat-square)](https://img.shields.io/badge/Platforms-iOS-Green?style=flat-square)
+
+
+
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+> To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+
 
 ## Requirements
 
+
+
 ## Installation
 
-BPDatabase is available through [CocoaPods](https://cocoapods.org). To install
+
+
+BPFile is available through [CocoaPods](https://cocoapods.org). To install
+
 it, simply add the following line to your Podfile:
+
+
 
 ```ruby
 pod 'BPDatabase'
 ```
 
+
 ## Author
+
+
 
 TestEngineerFish, 916878440@qq.com
 
-## License
 
-BPDatabase is available under the MIT license. See the LICENSE file for more info.
+
+---
+
+## 使用
+
+> 具体的表字段需要更具需求在改Pod库中直接修改
+
+* 操作普通数据库：**BPNormalDBCenter**
+
+* 操作IM数库库：**BPIMDBCenter**
+
+    
+
+
+
+
+
+
+

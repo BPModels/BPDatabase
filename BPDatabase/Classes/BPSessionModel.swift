@@ -16,13 +16,13 @@ public enum BPSessionType: Int {
 
 public struct BPSessionModel: Mappable {
 
-    public var id: String        = ""
+    public var id: String         = ""
     /// 会话类型
-    public var type              = BPSessionType.normal
+    public var type               = BPSessionType.normal
     /// 是否置顶
-    public var isTop: Bool       = false
+    public var isTop: Bool        = false
     /// 好友ID
-    public var friendId: String  = ""
+    public var friendId: String   = ""
     /// 好友名称
     public var friendName: String = ""
     /// 好友头像地址

@@ -8,13 +8,13 @@
 
 import Foundation
 
-struct BPSQLManager {
+public struct BPSQLManager {
 
     /// 初始化普通数据时,构造的表结构
-    static let createNormalTables = [CreateNormalTableSQLs.newsNotification.rawValue]
+    public static let createNormalTables = [CreateNormalTableSQLs.newsNotification.rawValue]
 
     /// 初始化IM系统数据时,构造的表结构
-    static let createIMTables = [
+    public static let createIMTables = [
         CreateIMTableSQLs.session.rawValue,
         CreateIMTableSQLs.message.rawValue,
         CreateIMTableSQLs.friend.rawValue]

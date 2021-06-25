@@ -8,20 +8,20 @@
 
 import FMDB
 
-enum BPDatabaseType: String {
+public enum BPDatabaseType: String {
     /// 普通数据库
     case normal = "normal.db"
     /// 聊天数据库
     case im     = "im.db"
 }
 
-enum BPSQLError: Error {
+public enum BPSQLError: Error {
     case CreateDatabaseError
     case CreateTableError
     case ExecuteSQLError
 }
 
-class BPDatabaseManager {
+public class BPDatabaseManager {
 
     /// FMDB全局单例
     public static let `default` = BPDatabaseManager()

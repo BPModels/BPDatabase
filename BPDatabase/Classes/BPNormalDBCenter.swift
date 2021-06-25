@@ -9,12 +9,13 @@
 import Foundation
 import FMDB
 
-struct NormalDBCenter: BPDatabaseProtocol {
+public struct BPNormalDBCenter: BPDatabaseProtocol {
 
-    static let `default` = NormalDBCenter()
+    public static let `default` = BPNormalDBCenter()
 
-    var db: FMDatabase { return self.normalRunner }
+    public var db: FMDatabase { return self.normalRunner }
 
     // MARK: 查询
+    public func getUserInfo() {}
     // MARK: 更新
 }

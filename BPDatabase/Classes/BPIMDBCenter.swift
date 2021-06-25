@@ -9,19 +9,19 @@
 import Foundation
 import FMDB
 
-struct BPIMDBCenter: BPDatabaseProtocol {
+public struct BPIMDBCenter: BPDatabaseProtocol {
 
-    static let `default` = BPIMDBCenter()
+    public static let `default` = BPIMDBCenter()
 
     // MARK: ==== Session ====
     /// 获取所有最近会话
-    func fetchAllRecnetSession() -> [BPSessionModel] {
+    public func fetchAllRecnetSession() -> [BPSessionModel] {
         let modelList = BPIMDBOperator.default.selectAllSession()
         return modelList
     }
 
     /// 更新最近会话展示信息
-    func updateSessionModel(model: BPSessionModel) {
+    public func updateSessionModel(model: BPSessionModel) {
         // 查询是否存在
         let result = BPIMDBOperator.default.selectSession(friend: model.friendId)
         if result {
@@ -34,7 +34,7 @@ struct BPIMDBCenter: BPDatabaseProtocol {
     }
 
     /// 更新最近会话的最后一条显示的时间戳
-    func updateSessionLastShowTime(model: BPSessionModel) {
+    public func updateSessionLastShowTime(model: BPSessionModel) {
         // 查询是否存在
         let result = BPIMDBOperator.default.selectSession(friend: model.friendId)
         if result {
@@ -47,37 +47,37 @@ struct BPIMDBCenter: BPDatabaseProtocol {
     }
 
     /// 更新Session置顶状态
-    func updateSessionTop(isTop: Bool, session id: String) -> Bool {
+    public func updateSessionTop(isTop: Bool, session id: String) -> Bool {
         return BPIMDBOperator.default.updateSessionTop(isTop: isTop, session: id)
     }
     
     /// 删除某条聊天记录
     @discardableResult
-    func deleteSession(session id: String) -> Bool {
+    public func deleteSession(session id: String) -> Bool {
         return BPIMDBOperator.default.deleteSession(session: id)
     }
     /// 删除所有最近聊天记录
     @discardableResult
-    func deleteAllSession() -> Bool {
+    public func deleteAllSession() -> Bool {
         return BPIMDBOperator.default.deleteAllSession()
     }
 
     // MARK: ==== Message ====
-    func selectAllMessage(session id: String) -> [BPMessageModel] {
+    public func selectAllMessage(session id: String) -> [BPMessageModel] {
         return BPIMDBOperator.default.selectAllMessage(session: id)
     }
 
-    func updateMesssage(message model: BPMessageModel) -> Bool {
+    public func updateMesssage(message model: BPMessageModel) -> Bool {
         return BPIMDBOperator.default.updateMessage(message: model)
     }
 
     @discardableResult
-    func insertMessage(message model: BPMessageModel) -> Bool {
+    public func insertMessage(message model: BPMessageModel) -> Bool {
         return BPIMDBOperator.default.insertMessage(message: model)
     }
 
     @discardableResult
-    func deleteAllMessage(session id: String) -> Bool {
+    public func deleteAllMessage(session id: String) -> Bool {
         return BPIMDBOperator.default.deleteAllMessage(session: id)
     }
 }
