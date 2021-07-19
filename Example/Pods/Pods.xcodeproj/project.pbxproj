@@ -43,7 +43,6 @@
 		32A7A65172847DB74B04AE209BE155FE /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CD5DA17E003E06DDDCF5CB10FB9953 /* UIButton+Kingfisher.swift */; };
 		351C9957CBC50796FCD022C40984D26F /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = AF15CFA70BA2B2EC8463388C9B01682A /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		374535D163AEA410DE7ADA7C9958FA5A /* BPMediaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3741D748936D3B7C9ECD6AF6D965496 /* BPMediaModel.swift */; };
-		3802A6E0D7904EC88F3865A0D8773BF6 /* IMDatabase.md in Sources */ = {isa = PBXBuildFile; fileRef = CEB75662E93B2E5D37335AB855897076 /* IMDatabase.md */; };
 		3A09B767D991008DE1FC724DFFD1E42F /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52C3FA8BB5804E7D87305E801A452A5 /* Resource.swift */; };
 		3BA43E9678B878CBC0A04FA82617BDD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7EEB784AA937039640C26C07DAC33DC /* Foundation.framework */; };
 		3C489A6C826FAD6401994C81BDA21822 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AA7D55F2F63F9F6C47848E333CF08A /* CFNetwork.framework */; };
@@ -373,7 +372,6 @@
 		CBA8AD9C5EF986AA80922674B8067B75 /* ImageFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFormat.swift; path = Sources/Image/ImageFormat.swift; sourceTree = "<group>"; };
 		CE0CA4CAD421AABC504A92A80FB89A26 /* Pods-BPDatabase_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BPDatabase_Tests-dummy.m"; sourceTree = "<group>"; };
 		CE2BEDE1A4B53C650B39C955E1D5021C /* TransformType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformType.swift; path = Sources/TransformType.swift; sourceTree = "<group>"; };
-		CEB75662E93B2E5D37335AB855897076 /* IMDatabase.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = IMDatabase.md; path = BPDatabase/Classes/IMDatabase.md; sourceTree = "<group>"; };
 		CF88D2E506094E41B2F1E097B2930CCC /* BPDatabase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BPDatabase.debug.xcconfig; sourceTree = "<group>"; };
 		D3699045CB267A94F3FE747552C80140 /* MapError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapError.swift; path = Sources/MapError.swift; sourceTree = "<group>"; };
 		D3741D748936D3B7C9ECD6AF6D965496 /* BPMediaModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BPMediaModel.swift; path = BPCommon/Classes/BPMediaModel.swift; sourceTree = "<group>"; };
@@ -637,7 +635,6 @@
 				3E7D7E39C0628E2A4F73C68BEFBD93AF /* BPIMDBCenter.swift */,
 				22263A7726833A2700E245AA /* BPSessionModel.swift */,
 				C4A96EB1DBCC054C252246A9D28A85E6 /* BPMessageModel.swift */,
-				CEB75662E93B2E5D37335AB855897076 /* IMDatabase.md */,
 				A8BFBA04825347607145434213138F40 /* BPNormalDBCenter.swift */,
 				7436DB30F0BF52B958B1A82361368EAD /* Database */,
 				312156DD8ACCB1D60C4C94749670AE88 /* Pod */,
@@ -1209,7 +1206,6 @@
 				C6815232163FE6E7C0369FF39E0FBB41 /* BPMessageModel.swift in Sources */,
 				2662285838D8DF4A5B496CDE090CE35A /* BPNormalDBOperator.swift in Sources */,
 				EC5F5E3B3A016DC58D6D62A1E221902C /* BPSQLManager.swift in Sources */,
-				3802A6E0D7904EC88F3865A0D8773BF6 /* IMDatabase.md in Sources */,
 				E6226209B3C7DB25C1293F741AE63303 /* BPNormalDBCenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
