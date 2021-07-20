@@ -3,7 +3,7 @@ PODS:
     - BPFile
     - Kingfisher (~> 5.7)
     - ObjectMapper
-  - BPDatabase (0.1.0):
+  - BPDatabase (0.1.5):
     - BPCommon
     - BPFile
     - FMDB
@@ -35,7 +35,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   BPCommon: 00c3b1e7ee537fcb33669e2bdd7aa5d1f45643e8
-  BPDatabase: d603ac25fefb6ca343bfcafb573a7117195ad7e0
+  BPDatabase: 5b4304f11750e255a346f5848b7db5cbd2f6ef4a
   BPFile: e96685ea7920008bceffa6b675d72705b586029b
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902

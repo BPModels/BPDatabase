@@ -1,6 +1,6 @@
 {
   "name": "BPDatabase",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "summary": "A short description of BPDatabase.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/BPModels/BPDatabase",
@@ -13,11 +13,11 @@
   },
   "source": {
     "git": "https://github.com/BPModels/BPDatabase.git",
-    "tag": "0.1.0"
+    "tag": "0.1.5"
   },
   "swift_versions": "5.0",
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
   "source_files": "BPDatabase/Classes/**/*",
   "dependencies": {
