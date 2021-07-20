@@ -19,10 +19,38 @@ public typealias DoubleBlock       = ((Double?)->Void)
 public typealias MediaListBlock    = (([BPMediaModel])->Void)
 
 
+// MARK: ----时间----
+public var week: Int   = 604800
+public var day: Int    = 86400
+public var hour: Int   = 3600
+public var minute: Int = 60
+
+
 // TODO: ==== Function ====
 /// 震动
 public func shake() {
     let gen = UIImpactFeedbackGenerator(style: .light)
     gen.prepare()
     gen.impactOccurred()
+}
+
+/// 获取屏幕截图
+public func getScreenshotImage() -> UIImage? {
+    guard let layer = UIApplication.shared.keyWindow?.layer else {
+        return nil
+    }
+    let renderer = UIGraphicsImageRenderer(size: layer.frame.size)
+    let image = renderer.image { (context: UIGraphicsImageRendererContext) in
+        layer.render(in: context.cgContext)
+    }
+    return image
+}
+
+/// 跳转到APP内设置界面
+public func jumpToAppSetting() {
+    let appSetting = URL(string: UIApplication.openSettingsURLString)
+
+    if appSetting != nil {
+        UIApplication.shared.open(appSetting!, options: [:], completionHandler: nil)
+    }
 }

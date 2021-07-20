@@ -15,10 +15,10 @@
     "git": "https://github.com/BPModels/BPDatabase.git",
     "tag": "0.1.6"
   },
-  "swift_versions": "5.0",
   "platforms": {
     "ios": "11.0"
   },
+  "swift_versions": "5.0",
   "source_files": "BPDatabase/Classes/**/*",
   "dependencies": {
     "FMDB": [
