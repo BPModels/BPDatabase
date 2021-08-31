@@ -3,7 +3,7 @@ PODS:
     - BPFile
     - Kingfisher (~> 5.7)
     - ObjectMapper
-  - BPDatabase (0.1.6):
+  - BPDatabase (0.1.7):
     - BPCommon
     - BPFile
     - FMDB
@@ -24,10 +24,9 @@ SPEC REPOS:
     - BPCommon
     - BPFile
   https://github.com/CocoaPods/Specs.git:
+    - FMDB
     - Kingfisher
     - ObjectMapper
-  trunk:
-    - FMDB
 
 EXTERNAL SOURCES:
   BPDatabase:
@@ -35,7 +34,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   BPCommon: 7368aade40f52bd4457c8a1156ba2ba2d978ca62
-  BPDatabase: 715b865d566f1aff3ae30a4f77469bbc23b77ca4
+  BPDatabase: 485cb9f1d9d71cb4c19d1dc212aab8c8353af113
   BPFile: 88d50e2b276324a5dbaae549c21dbb31ccc7f965
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
